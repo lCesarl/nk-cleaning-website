@@ -64,7 +64,7 @@ export default {
   transform: scale(1.05); /* Skaliert das Logo beim Überfahren mit der Maus leicht hoch */
 }
 
-  html,body { padding: 0 !important;}
+  html,body { padding: 0;}
   .hero {
     background: linear-gradient(to right, #002D62, #0368d3);
     color: white;
