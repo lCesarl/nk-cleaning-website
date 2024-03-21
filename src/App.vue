@@ -1,15 +1,32 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <TopbarSection />
+  <NavbarSection />
+  <HomeSection />
+  <ServicesSection />
+  <AboutUsSection />
+  <ChooseUsSection />
+  <ContactSection />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import TopbarSection from './components/TopbarSection.vue'
+import NavbarSection from './components/NavbarSection.vue'
+import HomeSection from './components/HomeSection.vue'
+import ServicesSection from './components/ServicesSection.vue'
+import AboutUsSection from './components/AboutUsSection.vue'
+import ChooseUsSection from './components/ChooseUsSection.vue'
+import ContactSection from './components/ContactSection.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    TopbarSection,
+    NavbarSection,
+    HomeSection,
+    ServicesSection,
+    AboutUsSection,
+    ChooseUsSection,
+    ContactSection
   }
 }
 </script>
@@ -21,6 +38,5 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
